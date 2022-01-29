@@ -5,3 +5,47 @@
 
   color: #fff;
 }
+
+@font-face {
+  font-family: 'Neucha-Regular';
+  src: url('/fonts/Neucha-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+
+  max-width: 1100px;
+
+  margin: 100px 0 100px 0;
+}
+
+.body-text {
+  font: normal 16px/1.6em 'OpenSans-Regular', sans-serif;
+  color: #2A2626;
+}
+
+h1 {
+  font: 72px/1.2em 'Neucha-Regular', cursive;
+}
+
+h2 {
+  font: 60px/1.2em 'Neucha-Regular', cursive;
+}
+
+h3 {
+  font: 34px/1.2em 'Neucha-Regular', cursive;
+}
+
