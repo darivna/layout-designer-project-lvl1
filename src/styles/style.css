@@ -33,7 +33,7 @@ h3 {
   font: 34px/1.2em 'Neucha-Regular', cursive;
 }
 
-.title-orange {
+.orange {
   color: #FE8A02;
 }
 
@@ -42,15 +42,8 @@ h3 {
   margin: 0 auto;
 }
 
-.content-block {
+.content {
   padding: 100px 165px;
-}
-
-button {
-  background-color: #FE8A02;
-  border: none;
-
-  cursor: pointer;
 }
 
 a {
@@ -86,17 +79,17 @@ header {
   opacity: 0.1;
 }
 
-.title-container {
+.header__title-container {
   position: relative;
   z-index: 1;
 }
 
-.header-title {
-  position: absolute;
+.header__title {
+  position: relative;
   z-index: 2;
 }
 
-.header-img {
+.header__img {
   position: absolute;
   top: -45px;
   left: 297px;
@@ -105,15 +98,22 @@ header {
   height: 525px;
 }
 
-.header-btn {
+.button {
+  background-color: #FE8A02;
+  border: none;
+
+  cursor: pointer;
+}
+
+.header__button {
   width: 148px;
   height: 49px;
 
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: 570px;
 }
 
-.header-text-block {
+.description {
   position: relative;
   
   display: flex;
@@ -121,20 +121,19 @@ header {
   flex-basis: auto;
 
   column-gap: 30px;
-
-  margin-top: 459px;
+  margin-top: 200px;
 
   z-index: 2;
 }
 
-.header-text-block div {
+.description__group {
   width: 540px;
 }
 
-.header-last-p {
-  margin-top: 11px;
+.description__paragraph {
+  margin-bottom: 11px;
 }
 
-.p-relative {
+.content_relative {
   position: relative;
 }
