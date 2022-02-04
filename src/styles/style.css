@@ -310,7 +310,6 @@ header {
 
 .title_brown {
   color: #B09A81;
-  ;
 }
 
 .line_white {
@@ -320,4 +319,8 @@ header {
 .distortion-of-novelty__first-p {
  width: 560px;
  margin-right: -17px;
+}
+
+.description__paragraph-mt {
+  margin-top: 16px;
 }
