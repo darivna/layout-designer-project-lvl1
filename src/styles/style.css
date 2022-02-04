@@ -253,6 +253,7 @@ header {
 
 .container-fw_light-bg {
   background-color: #f5f4f0;
+  color: #2A2626;
 }
 
 .top-block {
@@ -272,15 +273,13 @@ header {
   margin-top: 28px;
 }
 
-.title_white {
+.line__title {
   margin-left: 10px;
   padding-top: 3px;
-
-  color: #ffffff;
 }
 
-.subtitle_dark {
-  color: #2a2626;
+.title_white {
+  color: #ffffff;
 }
 
 .line {
@@ -299,3 +298,23 @@ header {
 .bottom-block__description {
   margin-top: 20px;
 }
+
+.container-fw_brown-bg {
+  background-color: #B09A81;
+  color: #fff;
+}
+
+.pretitle_white {
+  color: #D7CCC0;
+}
+
+.title_brown {
+  color: #B09A81;
+  ;
+}
+
+.line_white {
+  background-color: #ffffff;
+}
+
+
