@@ -33,6 +33,16 @@ h3 {
   font: 34px/1.2em "Neucha-Regular", cursive;
 }
 
+h4 {
+  font: bold 14px "OpenSans-Bold", sans-serif;
+  text-transform: uppercase;
+}
+
+img {
+  position: relative;
+  z-index: 1;
+}
+
 .orange {
   color: #fe8a02;
 }
@@ -237,6 +247,55 @@ header {
   background-color: #ffffff;
 }
 
-.container-fw_grey-bg {
+.container-fw_dark-bg {
   background-color: #42413c;
+}
+
+.container-fw_light-bg {
+  background-color: #f5f4f0;
+}
+
+.top-block {
+  display: flex;
+  column-gap: 30px;
+}
+
+.pretitle {
+  font: normal 24px/28.8px "Neucha-Regular", cursive;
+}
+
+.pretitle_dark {
+  color: #908d8b;
+}
+
+.subtitle {
+  margin-top: 28px;
+}
+
+.title_white {
+  margin-left: 10px;
+  padding-top: 3px;
+
+  color: #ffffff;
+}
+
+.subtitle_dark {
+  color: #2a2626;
+}
+
+.line {
+  position: relative;
+  z-index: 1;
+
+  margin-top: 91px;
+
+  height: 26px;
+}
+
+.line_brown {
+  background-color: #b09a81;
+}
+
+.bottom-block__description {
+  margin-top: 20px;
 }
