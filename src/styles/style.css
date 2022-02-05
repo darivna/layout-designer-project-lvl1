@@ -324,3 +324,109 @@ header {
 .description__paragraph-mt {
   margin-top: 16px;
 }
+
+.footer {
+  background-color: #FFFFFF;
+}
+
+.footer__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  column-gap: 122px;
+
+  height: 190px;
+
+  background-color: #42413C;
+
+  color: #fff;
+}
+
+.footer__title {
+  font: normal 18px/28.8px 'OpenSans-Regular', sans-serif;
+}
+
+.footer__form-email {
+  margin-left: 23px;
+} 
+
+.footer__form__paragraph {
+  margin-top: -9px;
+
+  font-size: 12px;
+}
+
+.footer__form__paragraph > a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer__links {
+  margin-top: 76px;
+
+  font-size: 14px;
+  line-height: 22.4px;
+  text-align: center;
+}
+
+.footer__links__paragraph {
+  margin-bottom: 16px;
+}
+
+.footer__links__paragraph > a {
+  text-decoration: underline;
+  color: #1085C5;
+}
+
+.footer__input-email > input {
+  border: none;
+  background-color: #fff;
+  
+  width: 400px;
+  height: 50px;
+
+  padding: 0 0 0 15px;
+}
+
+.footer__submit > input{
+  border: none;
+  background-color: #FE8A02;
+
+  width: 70px;
+  height: 50px;
+
+  padding: 0;
+}
+
+.footer__field-email {
+  display: flex;
+}
+
+.entry-field {
+  margin-top: 9px;
+} 
+
+.footer__submit {
+  position: relative;
+}
+
+.footer__submit::before {
+  content: "";
+
+  position: absolute;
+
+  width: 30px;
+  height: 30px;
+
+  margin: 15px 15px 15px 25px;
+
+  background-image: url("../assets/images/send.svg");
+  background-repeat: no-repeat;
+}
+
+.footer__submit > input:hover {
+  background-color: #EA7600;
+  cursor: pointer;
+}
+
