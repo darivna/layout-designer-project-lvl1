@@ -43,7 +43,7 @@ img {
   z-index: 1;
 }
 
-.orange {
+.title-orange {
   color: #fe8a02;
 }
 
@@ -60,8 +60,9 @@ a {
   text-decoration: none;
 }
 
-header {
+.header {
   height: 914px;
+
   background-color: #f5f4f0;
 }
 
@@ -73,15 +74,14 @@ header {
   content: "";
 
   position: absolute;
-
-  background-image: url("../assets/images/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  z-index: 0;
 
   width: 100%;
   height: 100%;
 
-  z-index: 0;
+  background-image: url("../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   opacity: 0.1;
 }
 
@@ -115,22 +115,21 @@ header {
   background-color: #ea7600;
 }
 
-.header__button {
+.link-header__button {
   width: 148px;
   height: 49px;
 
   margin-top: 30px;
   margin-left: 570px;
-}
 
-.header__link {
   font: bold 16px/1.6em "OpenSans-Bold", sans-serif;
-  color: #fff;
+  color: #FFFFFF;
   text-transform: uppercase;
 }
 
 .description {
   position: relative;
+  z-index: 2;
 
   display: flex;
   justify-content: space-between;
@@ -138,8 +137,6 @@ header {
 
   column-gap: 30px;
   margin-top: 200px;
-
-  z-index: 2;
 }
 
 .description__group {
@@ -157,20 +154,22 @@ header {
 .video {
   position: relative;
 
-  height: 814px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  height: 814px;
+
   padding-bottom: 0;
 
   background-color: #ffffff;
 }
 
 .video__title {
-  text-align: center;
   margin-bottom: 30px;
+  text-align: center;
 }
+
 .video__subtitle {
   margin-bottom: 28px;
 }
@@ -178,7 +177,6 @@ header {
 .video__frame {
   position: absolute;
   z-index: 3;
-
   top: 329px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -188,15 +186,15 @@ header {
   position: relative;
   z-index: 1;
 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  gap: 20px;
   margin-top: -109px;
   padding-top: 200px;
 
-  background-color: #42413c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+
+  background-color: #42413C;
 }
 
 .navigation__title {
@@ -204,13 +202,20 @@ header {
   width: 350px;
 
   font-size: 52px;
-  color: #f5f4f0;
+  color: #F5F4F0;
 }
 
-.card__title {
+.card-navigation__num {
+  margin-bottom: 40px;
+
+  font-size: 64px;
+  line-height: 1;
+}
+
+.card-navigation__title{
   margin-bottom: 16px;
 
-  color: #fe8a02;
+  color: #FE8A02;
 }
 
 .navigation__card {
@@ -220,9 +225,9 @@ header {
   width: 302px;
   padding: 24px;
 
-  color: #2a2626;
+  color: #2A2626;
 
-  background-color: #f5f4f0;
+  background-color: #F5F4F0;
 }
 
 .navigation__card_height {
@@ -231,29 +236,23 @@ header {
 
 .navigation__card:hover,
 .navigation__card:hover > .card__title {
-  background-color: #fe8a02;
-
-  color: #fff;
-}
-
-.navigation__num {
-  margin-bottom: 40px;
-
-  font-size: 64px;
-  line-height: 1;
+  color: #FFFFFF;
+  
+  background-color: #FE8A02;
 }
 
 .container-fw_white-bg {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 .container-fw_dark-bg {
-  background-color: #42413c;
+  background-color: #42413C;
 }
 
 .container-fw_light-bg {
-  background-color: #f5f4f0;
   color: #2A2626;
+
+  background-color: #F5F4F0;
 }
 
 .top-block {
@@ -266,7 +265,7 @@ header {
 }
 
 .pretitle_dark {
-  color: #908d8b;
+  color: #908D8B;
 }
 
 .subtitle {
@@ -278,21 +277,21 @@ header {
   padding-top: 3px;
 }
 
-.title_white {
-  color: #ffffff;
+.line__title_white {
+  color: #FFFFFF;
 }
 
-.line {
+.bottom-block__line {
   position: relative;
   z-index: 1;
+  
+  height: 26px;
 
   margin-top: 91px;
-
-  height: 26px;
 }
 
 .line_brown {
-  background-color: #b09a81;
+  background-color: #B09A81;
 }
 
 .bottom-block__description {
@@ -300,24 +299,26 @@ header {
 }
 
 .container-fw_brown-bg {
+  color: #FFFFFF;
+
   background-color: #B09A81;
-  color: #fff;
 }
 
 .pretitle_white {
   color: #D7CCC0;
 }
 
-.title_brown {
+.line__title_brown {
   color: #B09A81;
 }
 
 .line_white {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 .distortion-of-novelty__first-p {
  width: 560px;
+
  margin-right: -17px;
 }
 
@@ -329,7 +330,7 @@ header {
   background-color: #FFFFFF;
 }
 
-.footer__form {
+.footer__mailing-form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -338,31 +339,31 @@ header {
 
   height: 190px;
 
+  color: #FFFFFF;
+
   background-color: #42413C;
-
-  color: #fff;
 }
 
-.footer__title {
+/* .footer__title {
   font: normal 18px/28.8px 'OpenSans-Regular', sans-serif;
-}
+} */
 
-.footer__form-email {
+/* .email-form__paragraph {
   margin-left: 23px;
-} 
+}  */
 
-.footer__form__paragraph {
+.email-form__paragraph {
   margin-top: -9px;
 
   font-size: 12px;
 }
 
-.footer__form__paragraph > a {
+.email-form__paragraph > a {
+  color: #FFFFFF;
   text-decoration: underline;
-  color: #fff;
 }
 
-.footer__links {
+.footer__contacts {
   margin-top: 76px;
 
   font-size: 14px;
@@ -370,48 +371,50 @@ header {
   text-align: center;
 }
 
-.footer__links__paragraph {
+.contacts-footer__paragraph {
   margin-bottom: 16px;
 }
 
-.footer__links__paragraph > a {
-  text-decoration: underline;
+.contacts-footer__paragraph > a {
   color: #1085C5;
+  text-decoration: underline;
 }
 
-.footer__input-email > input {
-  border: none;
-  background-color: #fff;
-  
+.input-email {
   width: 400px;
   height: 50px;
 
   padding: 0 0 0 15px;
+  
+  background-color: #FFFFFF;
+
+  border: none;
 }
 
-.footer__submit > input{
-  border: none;
-  background-color: #FE8A02;
-
+.submit-email {
   width: 70px;
   height: 50px;
 
   padding: 0;
+
+  background-color: #FE8A02;
+
+  border: none;
 }
 
-.footer__field-email {
+.entry-field-email{
   display: flex;
 }
 
-.entry-field {
+.email-form__entry-field {
   margin-top: 9px;
 } 
 
-.footer__submit {
+.entry-field-email__submit {
   position: relative;
 }
 
-.footer__submit::before {
+.entry-field-email__submit::before {
   content: "";
 
   position: absolute;
@@ -425,7 +428,7 @@ header {
   background-repeat: no-repeat;
 }
 
-.footer__submit > input:hover {
+.submit-email:hover {
   background-color: #EA7600;
   cursor: pointer;
 }
