@@ -447,3 +447,13 @@ a {
   background-color: #ea7600;
   cursor: pointer;
 }
+
+.premature-optimization > div > p {
+  margin-top: 20px;
+}
+
+.premature-optimization > div > ul {
+  margin-top: 14px;
+}
+
+
