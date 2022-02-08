@@ -123,7 +123,7 @@ a {
   margin-left: 570px;
 
   font: bold 16px/1.6em "OpenSans-Bold", sans-serif;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -194,7 +194,7 @@ a {
   justify-content: space-between;
   gap: 20px;
 
-  background-color: #42413C;
+  background-color: #42413c;
 }
 
 .navigation__title {
@@ -202,7 +202,7 @@ a {
   width: 350px;
 
   font-size: 52px;
-  color: #F5F4F0;
+  color: #f5f4f0;
 }
 
 .card-navigation__num {
@@ -212,10 +212,10 @@ a {
   line-height: 1;
 }
 
-.card-navigation__title{
+.card-navigation__title {
   margin-bottom: 16px;
 
-  color: #FE8A02;
+  color: #fe8a02;
 }
 
 .navigation__card {
@@ -225,9 +225,9 @@ a {
   width: 302px;
   padding: 24px;
 
-  color: #2A2626;
+  color: #2a2626;
 
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
 
 .navigation__card_height {
@@ -236,23 +236,23 @@ a {
 
 .navigation__card:hover,
 .navigation__card:hover > .card__title {
-  color: #FFFFFF;
-  
-  background-color: #FE8A02;
+  color: #ffffff;
+
+  background-color: #fe8a02;
 }
 
 .container-fw_white-bg {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .container-fw_dark-bg {
-  background-color: #42413C;
+  background-color: #42413c;
 }
 
 .container-fw_light-bg {
-  color: #2A2626;
+  color: #2a2626;
 
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
 
 .top-block {
@@ -265,7 +265,7 @@ a {
 }
 
 .pretitle_dark {
-  color: #908D8B;
+  color: #908d8b;
 }
 
 .subtitle {
@@ -278,20 +278,20 @@ a {
 }
 
 .line__title_white {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .bottom-block__line {
   position: relative;
   z-index: 1;
-  
+
   height: 26px;
 
   margin-top: 91px;
 }
 
 .line_brown {
-  background-color: #B09A81;
+  background-color: #b09a81;
 }
 
 .bottom-block__description {
@@ -299,27 +299,27 @@ a {
 }
 
 .container-fw_brown-bg {
-  color: #FFFFFF;
+  color: #ffffff;
 
-  background-color: #B09A81;
+  background-color: #b09a81;
 }
 
 .pretitle_white {
-  color: #D7CCC0;
+  color: #d7ccc0;
 }
 
 .line__title_brown {
-  color: #B09A81;
+  color: #b09a81;
 }
 
 .line_white {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .distortion-of-novelty__first-p {
- width: 560px;
+  width: 560px;
 
- margin-right: -17px;
+  margin-right: -17px;
 }
 
 .description__paragraph-mt {
@@ -344,17 +344,11 @@ a {
   background-color: #42413C;
 }
 
-/* .footer__title {
-  font: normal 18px/28.8px 'OpenSans-Regular', sans-serif;
-} */
-
-/* .email-form__paragraph {
-  margin-left: 23px;
-}  */
+.footer__email-form {
+  margin-left: 24px;
+}
 
 .email-form__paragraph {
-  margin-top: -9px;
-
   font-size: 12px;
 }
 
@@ -376,39 +370,43 @@ a {
 }
 
 .contacts-footer__paragraph > a {
-  color: #1085C5;
+  color: #1085c5;
   text-decoration: underline;
 }
 
 .input-email {
-  width: 400px;
+  width: 408px;
   height: 50px;
 
   padding: 0 0 0 15px;
-  
-  background-color: #FFFFFF;
+
+  background-color: #ffffff;
 
   border: none;
 }
 
 .submit-email {
-  width: 70px;
+  display: block;
+
+  width: 62px;
   height: 50px;
 
   padding: 0;
 
-  background-color: #FE8A02;
+  background-color: #fe8a02;
 
   border: none;
 }
 
-.entry-field-email{
+.entry-field-email {
   display: flex;
+
+  height: 50px;
 }
 
-.email-form__entry-field {
-  margin-top: 9px;
-} 
+.email-form__title{
+  margin-bottom: 10px;
+}
 
 .entry-field-email__submit {
   position: relative;
@@ -418,18 +416,18 @@ a {
   content: "";
 
   position: absolute;
+  top: 15px;
+  left: 20px;
 
   width: 30px;
   height: 30px;
-
-  margin: 15px 15px 15px 25px;
 
   background-image: url("../assets/images/send.svg");
   background-repeat: no-repeat;
 }
 
-.submit-email:hover {
-  background-color: #EA7600;
+.entry-field-email__submit:hover,
+.entry-field-email__submit:hover .submit-email {
+  background-color: #ea7600;
   cursor: pointer;
 }
-
