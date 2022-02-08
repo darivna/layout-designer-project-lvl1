@@ -21,6 +21,10 @@ body {
   color: #2a2626;
 }
 
+h1, h2, h3 {
+  color: #FE8A02;
+}
+
 h1 {
   font: 72px/1.2em "Neucha-Regular", cursive;
 }
@@ -43,8 +47,8 @@ img {
   z-index: 1;
 }
 
-.title-orange {
-  color: #fe8a02;
+.title-dark {
+  color: #2A2626;
 }
 
 .container {
@@ -202,6 +206,10 @@ a {
   width: 350px;
 
   font-size: 52px;
+}
+
+.title-white,
+.subtitle-white {
   color: #f5f4f0;
 }
 
@@ -210,6 +218,7 @@ a {
 
   font-size: 64px;
   line-height: 1;
+  color: #42413C;
 }
 
 .card-navigation__title {
@@ -235,7 +244,8 @@ a {
 }
 
 .navigation__card:hover,
-.navigation__card:hover > .card__title {
+.navigation__card:hover > .card-navigation__num,
+.navigation__card:hover > .card-navigation__title {
   color: #ffffff;
 
   background-color: #fe8a02;
@@ -267,6 +277,12 @@ a {
 .pretitle_dark {
   color: #908d8b;
 }
+
+.title-black,
+.subtitle-black {
+  color: #2A2626;
+}
+
 
 .subtitle {
   margin-top: 28px;
