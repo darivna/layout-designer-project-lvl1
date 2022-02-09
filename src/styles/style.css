@@ -84,6 +84,7 @@ a {
   position: absolute;
 
   z-index: 0;
+  
   content: "";
 
   width: 100%;
@@ -440,6 +441,7 @@ a {
   position: absolute;
   top: 15px;
   left: 20px;
+
   content: "";
 
   width: 30px;
