@@ -4,6 +4,7 @@ extends:
 
 plugins:
   - stylelint-order
+  - stylelint-selector-bem-pattern
 
 rules:
   declaration-empty-line-before: null
@@ -11,3 +12,9 @@ rules:
     - true
     - empty-line-between-groups: true
   at-rule-no-unknown: null
+  plugin/selector-bem-pattern:
+    - componentName: [A-Z]
+    - componentSelectors: 
+    - initial": ^\\.{componentName}(?:-[a-z]+)?$
+    - combined": ^\\.combined-{componentName}-[a-z]+$
+  utilitySelectors: ^\\.util-[a-z]+$

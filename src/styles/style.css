@@ -84,7 +84,7 @@ a {
   position: absolute;
 
   z-index: 0;
-  
+
   content: "";
 
   width: 100%;
@@ -132,7 +132,9 @@ a {
 
   margin-top: 30px;
   margin-left: 570px;
+}
 
+.header__link {
   font: bold 16px/1.6em "OpenSans-Bold", sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -190,6 +192,9 @@ a {
   position: absolute;
   top: 329px;
   z-index: 3;
+
+  width: 919px;
+  height: 569px;
 
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
