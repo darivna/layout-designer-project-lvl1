@@ -13,24 +13,19 @@
     <header class="header background">
       <div class="container">
         <div class="content content_relative">
-          <div class="header__title-container">
-            <h1 class="header__title">
-              Когнитивные <br />искажения<br /><span class="title-dark"
-                >в программировании</span
-              >
-            </h1>
-            <div>
-              <img
-                class="header__img"
-                src="assets/images/main.png"
-                alt="person with laptop"
-              />
-            </div>
-          </div>
-
+          <h1 class="header-title">
+            Когнитивные <br />искажения<br /><span class="title-dark"
+              >в программировании</span
+            >
+          </h1>
+          <img
+            class="header-img"
+            src="assets/images/main.png"
+            alt="person with laptop"
+          />
           <div class="description">
-            <div class="description__group">
-              <p class="description__paragraph">
+            <div class="description-group">
+              <p class="description-paragraph">
                 Мы, разработчики, часто сталкиваемся с проблемами, которые идут
                 вразрез с нашей продуктивностью. Но мы часто игнорируем
                 целостную картину. Некоторые из этих проблем малозаметны,
@@ -38,42 +33,39 @@
                 иногда, к сожалению, нет.
               </p>
             </div>
-
-            <div class="description__group">
-              <p class="description__paragraph">
+            <div class="description-group">
+              <p class="description-paragraph">
                 Вместе они формируют что-то вроде замкнутого цикла, и это может
                 привести к длительной потере продуктивности, багам и
                 бесконечному разочарованию.
               </p>
-              <p class="description__paragraph">
+              <p class="description-paragraph">
                 Если мы сможем минимизировать воздействие одного или нескольких
                 из этих факторов, то сможем сломать и цикл, а остатки
                 нейтрализовать.
               </p>
             </div>
           </div>
-          
-          <button class="link-header__button button" type="button">
-            <a class="header__link link-header" href="#navigation">Подробнее</a>
+          <button class="header-button button" type="button">
+            <a class="header-link" href="#navigation">Подробнее</a>
           </button>
-
         </div>
       </div>
     </header>
 
     <main class="main">
-      <div class="container-fw container-fw_white-bg">
+      <div class="container-fw container-white-bg">
         <div class="container">
           <div class="video content">
-            <h2 class="video__title">
+            <h2 class="video-title">
               <span class="title-dark">Что же это такое,</span><br />когнитивные
               искажения?
             </h2>
-            <p class="video__subtitle">
+            <p class="video-subtitle">
               Что такое когнитивные искажения. Petrovna Channel
             </p>
             <iframe
-              class="video__frame"
+              class="video-frame"
               src="https://www.youtube.com/embed/jie9AizBqss"
               frameborder="0"
               allowfullscreen
@@ -82,21 +74,19 @@
         </div>
       </div>
 
-      <div class="container-fw container-fw_dark-bg">
+      <div class="container-fw container-dark-bg">
         <div class="container">
           <div id="navigation" class="navigation content">
-            <h2 class="navigation__title">
+            <h2 class="navigation-title">
               5 когнитивных искажений<br /><span class="title-white"
                 >о существовании которых стоит помнить</span
               >
             </h2>
 
             <a href="#ikea-effect">
-              <div
-                class="navigation__card navigation__card_height card-navigation"
-              >
-                <h2 class="card-navigation__num">1</h2>
-                <h3 class="card-navigation__title">Эффект ИКЕА</h3>
+              <div class="navigation-card card-height">
+                <h2 class="card-num">1</h2>
+                <h3 class="card-title">Эффект ИКЕА</h3>
                 <p>
                   Вы переоцениваете собственные решения, и, как следствие,
                   недооцениваете решения других.
@@ -105,13 +95,9 @@
             </a>
 
             <a href="#premature-optimization">
-              <div
-                class="navigation__card navigation__card_height card-navigation"
-              >
-                <h2 class="card-navigation__num">2</h2>
-                <h3 class="card-navigation__title">
-                  Преждевременная оптимизация
-                </h3>
+              <div class="navigation-card card-height">
+                <h2 class="card-num">2</h2>
+                <h3 class="card-title">Преждевременная оптимизация</h3>
                 <p>
                   Вы оптимизируете что-то задолго до того, как в этом появляется
                   необходимость.
@@ -120,9 +106,9 @@
             </a>
 
             <a href="#distortion-of-novelty">
-              <div class="navigation__card card-navigation">
-                <h2 class="card-navigation__num">3</h2>
-                <h3 class="card-navigation__title">Искажение новизны</h3>
+              <div class="navigation-card">
+                <h2 class="card-num">3</h2>
+                <h3 class="card-title">Искажение новизны</h3>
                 <p>
                   Вы даёте более высокую оценку тем событиям, которые произошли
                   недавно, и недооцениваете более старые.
@@ -131,11 +117,9 @@
             </a>
 
             <a href="#hyperbolic-depreciation">
-              <div class="navigation__card card-navigation">
-                <h2 class="card-navigation__num">4</h2>
-                <h3 class="card-navigation__title">
-                  Гиперболическое обесценивание
-                </h3>
+              <div class="navigation-card">
+                <h2 class="card-num">4</h2>
+                <h3 class="card-title">Гиперболическое обесценивание</h3>
                 <p>
                   Вы гонитесь за немедленной маленькой выгодой и игнорируете
                   более крупную, недоступную сейчас, но доступную в будущем.
@@ -144,9 +128,9 @@
             </a>
 
             <a href="#errors-in-planning">
-              <div class="navigation__card card-navigation">
-                <h2 class="card-navigation__num">5</h2>
-                <h3 class="card-navigation__title">Ошибка планирования</h3>
+              <div class="navigation-card">
+                <h2 class="card-num">5</h2>
+                <h3 class="card-title">Ошибка планирования</h3>
                 <p>
                   Неправильно рассчитывать время необходимое для завершения
                   задачи.
@@ -157,19 +141,15 @@
         </div>
       </div>
 
-      <div class="container-fw container-fw_light-bg background">
+      <div class="container-fw container-light-bg background">
         <div class="container">
           <div id="ikea-effect" class="content">
             <div class="top-block">
-              <div class="ikea-effect__img">
-                <img
-                  class="top-block__img"
-                  src="assets/images/1.png"
-                  alt="two persons"
-                />
+              <div class="top-img">
+                <img src="assets/images/1.png" alt="two persons" />
               </div>
-              <div class="ikea-effect__title">
-                <p class="pretitle pretitle_dark">Когнитивные искажения</p>
+              <div class="top-title">
+                <p class="pretitle pretitle-dark">Когнитивные искажения</p>
                 <h2 class="title-black">Эффект ИКЕА</h2>
                 <h3 class="subtitle subtitle-black">
                   Вы переоцениваете собственные решения, и, как следствие,
@@ -178,16 +158,16 @@
               </div>
             </div>
             <div class="bottom-block">
-              <div class="bottom-block__line line_brown">
-                <h4 class="line__title line__title_white">Как проявляется</h4>
+              <div class="bottom-line line-brown">
+                <h4 class="line-title line-title-white">Как проявляется</h4>
               </div>
-              <div class="description bottom-block__description">
-                <p class="description__group">
+              <div class="description bottom-description">
+                <p class="description-group">
                   Когнитивное искажение называется так из-за того, что
                   потребители зачастую предпочитают покупать товары, которые они
                   могут собрать сами, а не уже собранные кем-то.
                 </p>
-                <p class="description__group">
+                <p class="description-group">
                   Мы склонны переоцнивать наши собственные решения и
                   недооценивать решения других. Если вы когда-то работали в
                   компании, которая использовала тупой внутренний инструмент
@@ -200,62 +180,52 @@
         </div>
       </div>
 
-      <div class="container-fw container-fw_brown-bg background">
+      <div class="container-fw container-brown-bg background">
         <div class="container">
           <div id="premature-optimization" class="content">
-            <div class="premature-optimization">
-              <div class="top-block">
-                <div class="premature-optimization__title">
-                  <p class="pretitle pretitle_white">Когнитивные искажения</p>
-                  <h2 class="title-white">Преждевременная оптимизация</h2>
-                  <h3 class="subtitle subtitle-white">
-                    Вы оптимизируете что-то задолго до того, как в этом
-                    появляется необходимость.
-                  </h3>
-                </div>
-                <div class="premature-optimization__img">
-                  <img
-                    class="top-block__img"
-                    src="assets/images/2.png"
-                    alt="rocket on a laptop"
-                  />
-                </div>
+            <div class="top-block">
+              <div class="top-title">
+                <p class="pretitle pretitle-white">Когнитивные искажения</p>
+                <h2 class="title-white">Преждевременная оптимизация</h2>
+                <h3 class="subtitle subtitle-white">
+                  Вы оптимизируете что-то задолго до того, как в этом появляется
+                  необходимость.
+                </h3>
               </div>
-              <div class="bottom-block">
-                <div class="bottom-block__line line_white">
-                  <h4 class="line__title line__title_brown">Как проявляется</h4>
-                </div>
-                <div class="description bottom-block__description">
-                  <p class="description__group">
-                    Если вы добавите аэродинамический спойлер к своему старому
-                    автомобилю вместо ремонта мотора, то автомобиль не станет
-                    быстрее.
-                  </p>
-                  <p class="description__group">
-                    Отличный пример: писать максимально подтюненный и
-                    высокопроизводительный код для всего лишь экспериментального
-                    проекта.
-                  </p>
-                </div>
+              <div class="top-img">
+                <img src="assets/images/2.png" alt="rocket on a laptop" />
+              </div>
+            </div>
+            <div class="bottom-block">
+              <div class="bottom-line line-white">
+                <h4 class="line-title line-title-brown">Как проявляется</h4>
+              </div>
+              <div class="description bottom-description">
+                <p class="description-group">
+                  Если вы добавите аэродинамический спойлер к своему старому
+                  автомобилю вместо ремонта мотора, то автомобиль не станет
+                  быстрее.
+                </p>
+                <p class="description-group">
+                  Отличный пример: писать максимально подтюненный и
+                  высокопроизводительный код для всего лишь экспериментального
+                  проекта.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container-fw container-fw_light-bg background">
+      <div class="container-fw container-light-bg background">
         <div class="container">
           <div id="distortion-of-novelty" class="content">
             <div class="top-block">
-              <div class="distortion-of-novelty__img">
-                <img
-                  class="top-block__img"
-                  src="assets/images/3.png"
-                  alt="bucket with ideas"
-                />
+              <div class="top-img">
+                <img src="assets/images/3.png" alt="bucket with ideas" />
               </div>
-              <div class="distortion-of-novelty__title">
-                <p class="pretitle pretitle_dark">Когнитивные искажения</p>
+              <div class="top-title">
+                <p class="pretitle pretitle-dark">Когнитивные искажения</p>
                 <h2 class="title-black">Искажение новизны</h2>
                 <h3 class="subtitle subtitle-black">
                   Вы даёте более высокую оценку тем событиям, которые произошли
@@ -264,17 +234,17 @@
               </div>
             </div>
             <div class="bottom-block">
-              <div class="bottom-block__line line_brown">
-                <h4 class="line__title line__title_white">Как проявляется</h4>
+              <div class="bottom-line line-brown">
+                <h4 class="line-title line-title-white">Как проявляется</h4>
               </div>
-              <div class="description bottom-block__description">
-                <p class="description__group distortion-of-novelty__first-p">
+              <div class="description bottom-description">
+                <p class="description-group distortion-of-novelty__first-p">
                   Часто это искажение настигает нас, когда нужно решение
                   проблемы и… о! Мы как раз только что решили подобную проблему!
                   Давайте использовать это же решение, потому что оно сработало,
                   и мы помним как!
                 </p>
-                <p class="description__group">
+                <p class="description-group">
                   Вы замечаете, что пользуетесь теми же рабочими методиками раз
                   за разом? Если да, возможно, вы смотрите на разные проблемы
                   под одним и тем же углом.
@@ -285,37 +255,33 @@
         </div>
       </div>
 
-      <div class="container-fw container-fw_brown-bg background">
+      <div class="container-fw container-brown-bg background">
         <div class="container">
           <div id="hyperbolic-depreciation" class="content">
             <div class="top-block">
-              <div class="hyperbolic-depreciation__title">
-                <p class="pretitle pretitle_white">Когнитивные искажения</p>
+              <div class="top-title">
+                <p class="pretitle pretitle-white">Когнитивные искажения</p>
                 <h2 class="title-white">Гиперболическое обесценивание</h2>
                 <h3 class="subtitle subtitle-white">
                   Вы гонитесь за немедленной маленькой выгодой и игнорируете
                   более крупную, недоступную сейчас, но доступную в будущем.
                 </h3>
               </div>
-              <div class="hyperbolic-depreciation__img">
-                <img
-                  class="top-block__img"
-                  src="assets/images/4.png"
-                  alt="chest of gold"
-                />
+              <div class="top-img">
+                <img src="assets/images/4.png" alt="chest of gold" />
               </div>
             </div>
             <div class="bottom-block">
-              <div class="bottom-block__line line_white">
-                <h4 class="line__title line__title_brown">Как проявляется</h4>
+              <div class="bottom-line line-white">
+                <h4 class="line-title line-title-brown">Как проявляется</h4>
               </div>
-              <div class="description bottom-block__description">
-                <p class="description__group">
+              <div class="description bottom-description">
+                <p class="description-group">
                   Вы когда-нибудь откладывали написание теста? Ловили себя на
                   использовании клавиш-стрелок в Vim? Поздравляю, у вас
                   наблюдается гиперболическое обесценивание.
                 </p>
-                <p class="description__group">
+                <p class="description-group">
                   Немедленная выгода от использования чего-то быстродоступного
                   значительно смягчает боль, которую нужно перетерпеть, чтобы
                   усвоить правильный синтаксис для перемещения на нужную
@@ -329,19 +295,15 @@
         </div>
       </div>
 
-      <div class="container-fw container-fw_light-bg background">
+      <div class="container-fw container-light-bg background">
         <div class="container">
           <div id="errors-in-planning" class="content">
             <div class="top-block">
-              <div class="errors-in-planning__img">
-                <img
-                  class="top-block__img"
-                  src="assets/images/5.png"
-                  alt="man's writing a plan"
-                />
+              <div class="top-img">
+                <img src="assets/images/5.png" alt="man's writing a plan" />
               </div>
-              <div class="errors-in-planning__title">
-                <p class="pretitle pretitle_dark">Когнитивные искажения</p>
+              <div class="top-title">
+                <p class="pretitle pretitle-dark">Когнитивные искажения</p>
                 <h2 class="title-black">Ошибка планирования</h2>
                 <h3 class="subtitle subtitle-black">
                   Неправильно рассчитывать время необходимое для завершения
@@ -351,23 +313,23 @@
             </div>
 
             <div class="bottom-block">
-              <div class="bottom-block__line line_brown">
-                <h4 class="line__title line__title_white">Как проявляется</h4>
+              <div class="bottom-line line-brown">
+                <h4 class="line-title line-title-white">Как проявляется</h4>
               </div>
-              <div class="description bottom-block__description">
-                <div class="description__group">
-                  <p class="description__paragraph">
+              <div class="description bottom-description">
+                <div class="description-group">
+                  <p class="description-paragraph">
                     Одно из искажений, которое должно признать большинство из
                     нас. И менеджеры проекта, и сами пользователи продукта — все
                     склонны ставить сроки, в которые невозможно закончить
                     запланированное.
                   </p>
                 </div>
-                <div class="description__group">
-                  <p class="description__paragraph">
+                <div class="description-group">
+                  <p class="description-paragraph">
                     Это отлично выражается в старом афоризме:
                   </p>
-                  <p class="description__paragraph description__paragraph-mt">
+                  <p class="description-paragraph description__paragraph-mt">
                     Первые 90% готового кода отнимают первые 90% времени
                     разработки. Оставшиеся 10% отнимают вторые 90% времени
                     разработки.
@@ -380,25 +342,26 @@
       </div>
     </main>
 
-    <footer class="footer">
+    <footer>
       <div class="container">
         <div class="content">
-          <div class="footer__mailing-form mailing-form">
-            <div class="mailing-form__title">
+          <div class="mailing-form">
+            <div class="footer-title">
               <h3 class="title-white">
                 Хотите узнать больше?<br />Подпишитесь на обновления
               </h3>
             </div>
-            <div class="footer__email-form email-form">
-              <p class="email-form__title">Электронная почта</p>
-              <div class="email-form__entry-field entry-field">
+
+            <div class="footer-email-form">
+              <p class="email-form-title">Электронная почта</p>
+              <div class="entry-field">
                 <form
                   class="entry-field-email"
                   name="InputEmail"
                   action="#"
                   method="get"
                 >
-                  <div class="entry-field-email__input">
+                  <div class="email-input">
                     <input
                       class="input-email"
                       type="email"
@@ -406,7 +369,7 @@
                       placeholder="Ваша электронная почта"
                     />
                   </div>
-                  <div class="entry-field-email__submit">
+                  <div class="email-submit">
                     <input class="submit-email" type="submit" value="" />
                   </div>
                 </form>
@@ -417,17 +380,16 @@
               </p>
             </div>
           </div>
-
-          <div class="footer__contacts contacts-footer">
-            <p class="contacts-footer__paragraph">© 2022 Daria Sandyrkina</p>
-            <p class="contacts-footer__paragraph">
+          <div class="footer-contacts">
+            <p class="footer-contacts-paragraph">© 2022 Daria Sandyrkina</p>
+            <p class="footer-contacts-paragraph">
               По материалам статьи
               <a
                 href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b"
                 >Yash Ranadive Cognitive Biases in Programming</a
               >
             </p>
-            <p class="contacts-footer__paragraph">
+            <p class="footer-contacts-paragraph">
               <a href="https://ru.hexlet.io/">Курсы программирования Hexlet</a>
             </p>
           </div>
