@@ -164,7 +164,7 @@ a {
   margin-bottom: 11px;
 }
 
-.content_relative {
+.content-relative {
   position: relative;
 }
 
@@ -233,8 +233,8 @@ a {
 .card-num {
   margin-bottom: 40px;
 
-  font-size: 64px;
   color: #42413c;
+  font-size: 64px;
   line-height: 1;
 }
 
@@ -350,7 +350,7 @@ a {
   background-color: #fff;
 }
 
-.description__paragraph-mt {
+.paragraph-mt {
   margin-top: 16px;
 }
 
@@ -376,11 +376,11 @@ a {
   margin-left: 24px;
 }
 
-.email-form__paragraph {
+.email-form-paragraph {
   font-size: 12px;
 }
 
-.email-form__paragraph > a {
+.email-form-paragraph > a {
   color: #fff;
   text-decoration: underline;
 }
